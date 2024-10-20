@@ -1,29 +1,10 @@
-[15:56:25] [User Authenticator #40/INFO]: UUID of player Crimson1250 is b5097f58-4585-4073-87e6-098cef80606c
-[15:56:26] [Server thread/INFO]: Crimson1250[/86.2.122.98:65078] logged in with entity id 301585 at (-1328.699999988079, 194.0, 704.3000000119209)
-[15:56:26] [Server thread/INFO]: Crimson1250 joined the game
-[16:00:02] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-89, y=55, z=351} jd{x=-89, y=55, z=352}
-[16:00:02] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-89, y=55, z=351} jd{x=-89, y=55, z=352}
-[16:00:12] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-84, y=50, z=352} jd{x=-83, y=49, z=352}
-[16:00:15] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-82, y=48, z=352} jd{x=-81, y=47, z=352}
-[16:00:18] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-80, y=46, z=352} jd{x=-79, y=45, z=352}
-[16:00:18] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-80, y=46, z=352} jd{x=-79, y=45, z=352}
-[16:04:55] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-130, y=18, z=204} jd{x=-131, y=18, z=203}
-[16:24:30] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-105, y=15, z=351} jd{x=-106, y=14, z=352}
-[16:24:30] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-105, y=15, z=351} jd{x=-106, y=14, z=352}
-[16:27:55] [Server thread/WARN]: Mismatch in destroy block pos: jd{x=-110, y=12, z=299} jd{x=-111, y=11, z=299}
-[16:53:41] [Server thread/INFO]: Crimson1250 lost connection: Disconnected
-[16:53:41] [Server thread/INFO]: Crimson1250 left the game
-[16:53:41] [Server thread/WARN]: handleDisconnection() called twice
-[22:34:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[22:34:02] [Server thread/INFO]: stopsrso<--[HERE]
-[22:34:04] [Server thread/INFO]: Stopping the server
-[22:34:04] [Server thread/INFO]: Stopping server
-[22:34:04] [Server thread/INFO]: Saving players
-[22:34:04] [Server thread/INFO]: Saving worlds
-[22:34:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:34:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:34:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:34:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:34:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:34:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:34:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:09:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:09:55] [ServerMain/ERROR]: Failed to start the minecraft server
+axt$a: /home/a01milner/minecraft-server01/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at axt$a.a(SourceFile:95) ~[server-1.21.1.jar:?]
+	at axt.a(SourceFile:41) ~[server-1.21.1.jar:?]
+	at erf$c.<init>(SourceFile:374) ~[server-1.21.1.jar:?]
+	at erf.d(SourceFile:353) ~[server-1.21.1.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:137) ~[server-1.21.1.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
